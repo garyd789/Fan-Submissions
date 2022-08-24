@@ -1,0 +1,50 @@
+.header-container{
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.login-button-container{
+    position: relative;
+}
+.login-button{
+    position: absolute;
+    left:70%;
+    background-color: rgb(62, 72, 182);
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+
+}
+.artist-image{
+    border-radius: 10%;
+    border: 2px solid white;
+    overflow: hidden;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.656);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: 0 auto !important; 
+    object-fit: cover;
+}
+.artist-name{
+    text-align: center; 
+    color: white;
+}
+
+@media (min-width: 500px) {
+    .login-button-container{
+        position: relative;
+    }
+    .login-button{
+        position: absolute;
+        left:80%;
+        background-color: rgb(62, 72, 182);
+        width: 100px;
+        height: 30px;
+        border-radius: 6px;
+        border: none;
+        color: white;
+    }
+}

@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+html{
+    display: relative;
+    background-image: url(https://fanpad.xyz/img/bg.png);
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

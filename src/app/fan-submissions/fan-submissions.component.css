@@ -1,0 +1,76 @@
+.prompt-text-container{
+    text-align: center;
+    background-color: white;
+    border-radius: 15PX;
+    max-width: 300px;
+    margin: 0 auto !important; 
+}
+
+#prompt-header-text{
+    display: block;
+    font-size: 24px;
+    padding: 15px;
+}
+
+#prompt-text{
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto !important; 
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;    
+}
+.upload-submission-container{
+    padding: 10px;
+    max-width: 500px;
+    margin: 1.75rem auto;
+    position: relative;
+    width: auto;
+}
+#upload-submission-content{
+    display: block;
+    background-color: white;
+    border-radius: 15px;
+    max-width: 300px;
+    margin: 0 auto !important; 
+    min-height: 100px;
+    padding-top: 25px;
+    padding: 15px;
+}
+#upload-submission-text{
+    width:250px;
+    font-size: 10pt;
+    padding-left: 15px;
+    font-family: TradeGothic LT;
+    padding-bottom: 10px;
+}
+.file-selection-button-container{
+    background-color: #228b22!important;
+    border-radius: 25px;
+    height: 29px;
+}
+#file-text{
+    display: inline-block;
+    text-align: center;
+    padding-top:5px;
+    padding-left:4px;
+};
+.btn{
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    top: 4px;
+    left: 200px;
+
+}
+.test-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
